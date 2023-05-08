@@ -1,0 +1,133 @@
+body{ 
+    font: 14px sans-serif;
+ }
+
+ /* form css */
+ .wrapper{ 
+    width: 360px; padding: 20px;
+
+    width: 360px; 
+    padding: 20px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+}
+.form-group {
+    margin-bottom: 15px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input[type="text"],
+input[type="password"] {
+    height: 40px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 100%;
+}
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+.invalid-feedback {
+    color: red;
+    font-size: 14px;
+}
+/* Title */
+
+.title {
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+
+/* font for form */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper h2 {
+    font-size: 36px;
+    text-shadow: 2px 2px #CCCCCC;
+    font-weight: bold;
+}
+
+.wrapper label {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+/* border for form */
+
+.login-form {
+    border: 2px solid #999;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #999;
+}
+
+/* button style */
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFF;
+    background-color: #007bff;
+    border: 2px solid #007bff;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0062cc;
+    border-color: #0062cc;
+}
+
+/* Background image css */
+
+.login-background {
+    background-image: url('https://resources.premierleague.com/premierleague/photo/2021/09/28/7dcd385f-cca2-4981-bc99-7cb13553e3ed/Michael-Oliver.jpg');
+    background-size: cover;
+   
+    background-position: center 120px;
+
+    background-position: center center;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+}
+
+/* Footer css */
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}

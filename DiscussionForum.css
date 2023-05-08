@@ -1,0 +1,177 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 0;
+  }
+  
+  .comment {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #f5f5f5;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .comment p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .comment .meta {
+    font-size: 12px;
+    color: #888;
+  }
+  
+  .comment .actions {
+    margin-top: 10px;
+  }
+  
+  .comment .actions a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #888;
+    text-decoration: none;
+  }
+  
+  .comment .actions a:hover {
+    color: #000;
+  }
+  
+  .comment .vote {
+    display: inline-block;
+    margin-right: 10px;
+    color: #888;
+  }
+  
+  .comment .upvote,
+  .comment .downvote {
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .comment .upvote:hover,
+  .comment .downvote:hover {
+    color: #000;
+  }
+  
+  .reply {
+    margin-left: 40px;
+    padding: 10px;
+    background-color: #e6e6e6;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .reply p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  .reply .meta {
+    font-size: 12px;
+    color: #888;
+  }
+  
+  .reply .actions {
+    margin-top: 10px;
+  }
+  
+  .reply .actions a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #888;
+    text-decoration: none;
+  }
+  
+  .reply .actions a:hover {
+    color: #000;
+  }
+  
+  .reply .vote {
+    display: inline-block;
+    margin-right: 10px;
+    color: #888;
+  }
+  
+  .reply .upvote,
+  .reply .downvote {
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .reply .upvote:hover,
+  .reply .downvote:hover {
+    color: #000;
+  }
+  
+
+
+/* nav */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+header {
+  background-color: #222;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  display: block;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #444;
+}
+
+
+/* comment box css */
+
+
+.comment-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .comment-form textarea {
+    width: 100%;
+    height: 100px;
+    margin: 10px 0;
+  }
+  
+
+
+
+
+
+

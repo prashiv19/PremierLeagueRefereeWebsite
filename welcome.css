@@ -1,0 +1,113 @@
+/* Title */
+
+/* .title {
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+} */
+
+
+/* Background image */
+
+/* .login-background {
+    background-image: url('https://www.sportbible.com/cdn-cgi/image/height=700,quality=70,format=jpeg,fit=contain,dpr=1/https%3A%2F%2Fs3-images.sportbible.com%2Fs3%2Fcontent%2F2b3f1a235da75fc9f350a5cde587682c.jpg');
+    background-size: cover;
+   
+    background-position: center 120px;
+
+    background-position: center center;
+    background-repeat: no-repeat;
+    opacity: 1.5;
+/* 
+    background-position: center bottom; */
+  /* background-size: auto calc(150% - [height-of-your-title]);
+} */ 
+
+/* Footer css */
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+/* nav */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333333;
+    color: #ffffff;
+    padding: 20px;
+}
+
+.logo {
+    font-size: 30px;
+}
+
+.logo h1 {
+    margin: 0;
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links li:last-child {
+    margin-right: 0;
+}
+
+.nav-links a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+
+
+/* abOUT SECTION */
+
+#About-Section {
+    background-color: #f7f7f7;
+    padding: 30px;
+    margin: 30px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 36px;
+    color: #333;
+  }
+  
+  h2 {
+    font-size: 24px;
+    color: #777;
+    margin-top: 20px;
+  }
+  
+  p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.5;
+  }
+  
